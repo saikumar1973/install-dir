@@ -1,0 +1,7 @@
+uuid: b1875891-00a4-4398-8228-8f6cf4976f92
+langcode: en
+status: true
+dependencies: {  }
+name: conf_img_style
+label: 'Conf Img Style'
+effects: {  }

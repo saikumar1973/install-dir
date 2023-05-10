@@ -1,0 +1,22 @@
+uuid: f1b9eece-45ab-4e61-b424-6a6f9d8e6ea2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_for_basic_page_ct
+label: 'pattern for basic page CT'
+type: 'canonical_entities:node'
+pattern: 'basic_page/[node:title]'
+selection_criteria:
+  ffda0949-a6ac-44c1-8394-c1899ccf9d45:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: ffda0949-a6ac-44c1-8394-c1899ccf9d45
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }
